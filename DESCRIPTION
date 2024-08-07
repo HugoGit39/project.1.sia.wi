@@ -1,5 +1,5 @@
 Package: project.1.sia.wi
-Title: An Amazing Shiny App
+Title: SiA Wearable Interface
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "firstname",
