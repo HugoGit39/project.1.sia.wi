@@ -2,12 +2,12 @@ Package: project.1.sia.wi
 Title: SiA Wearable Interface
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "firstname",
-           family = "lastname",
+    person(given = "hugo",
+           family = "klarenberg",
            role = c("aut", "cre"),
-           email = "your@email.com")
-Description: What the package does (one paragraph).
-License: What license is it under?
+           email = "hklarenberg@vu.nl")
+Description: R Shiny dashboard for the SiA Wearable Interface project
+License: MIT
 Imports: 
     config (>= 0.3.2),
     golem (>= 0.4.1),
