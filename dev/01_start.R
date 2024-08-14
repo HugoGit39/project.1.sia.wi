@@ -20,11 +20,11 @@
 ##
 golem::fill_desc(
   pkg_name = "project.1.sia.wi", # The Name of the package containing the App
-  pkg_title = "PKG_TITLE", # The Title of the package containing the App
-  pkg_description = "PKG_DESC.", # The Description of the package containing the App
-  author_first_name = "AUTHOR_FIRST", # Your First Name
-  author_last_name = "AUTHOR_LAST", # Your Last Name
-  author_email = "AUTHOR@MAIL.COM", # Your Email
+  pkg_title = "SiA Wearable Interface", # The Title of the package containing the App
+  pkg_description = "R Shiny dashboard for the SiA Wearable Interface project", # The Description of the package containing the App
+  author_first_name = "Hugo", # Your First Name
+  author_last_name = "Klarenberg", # Your Last Name
+  author_email = "hugoklarenberg@gmail.com", # Your Email
   repo_url = NULL, # The URL of the GitHub Repo (optional),
   pkg_version = "0.0.0.9000" # The Version of the package containing the App
 )
@@ -37,7 +37,8 @@ golem::install_dev_deps()
 
 ## Create Common Files ----
 ## See ?usethis for more information
-usethis::use_mit_license("Golem User") # You can set another license here
+#usethis::use_mit_license("Golem User") # You can set another license here
+usethis::use_apache_license()
 usethis::use_readme_rmd(open = FALSE)
 devtools::build_readme()
 # Note that `contact` is required since usethis version 2.1.5
@@ -61,6 +62,9 @@ golem::use_favicon() # path = "path/to/ico". Can be an online file.
 ## Add helper functions ----
 golem::use_utils_ui(with_test = TRUE)
 golem::use_utils_server(with_test = TRUE)
+
+usethis::use_package("dplyr")
+usethis::use_package("tidyr")
 
 # You're now set! ----
 

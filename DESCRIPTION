@@ -7,11 +7,19 @@ Authors@R:
            role = c("aut", "cre"),
            email = "hklarenberg@vu.nl")
 Description: R Shiny dashboard for the SiA Wearable Interface project
-License: MIT
+License: Apache License (>= 2)
 Imports: 
     config (>= 0.3.2),
+    dplyr,
     golem (>= 0.4.1),
-    shiny (>= 1.9.1)
+    shiny (>= 1.9.1),
+    tidyr,
+    tydr
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.1.1
+RoxygenNote: 7.3.2
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Depends: 
+    tidyverse
