@@ -13,11 +13,11 @@
 </p>
 
 <p align="justify">
-  For point 2:  how daily life stress can be reliably measured in a specific individual in real-time using daily life stress assessment tools, selection and validation pipelines in our design field labs will establish their ethical and legal feasibility, user-acceptance, reliability and validity, and potential application in just-in-time adaptive stress interventions.
+  For research theme (RT) 2:  how daily life stress can be reliably measured in a specific individual in real-time using daily life stress assessment tools, selection and validation pipelines in our design field labs will establish their ethical and legal feasibility, user-acceptance, reliability and validity, and potential application in just-in-time adaptive stress interventions.
 </p>
 
 <p align="justify">
-  This GitHub repository contains an R Shiny app developed using the <a href="https://github.com/ThinkR-open/golem">golem</a> framework. The app showcases the results of the wearable validation pipeline, offering a robust platform for visualizing and analyzing data. Designed for efficiency and scalability, the application provides insights into the validation process, allowing users to interact with and explore the outcomes of the wearable technology assessment.
+  This GitHub repository contains an R Shiny app developed using the `{golem}` framework. The app showcases the results of the wearable validation pipeline, offering a robust platform for visualizing and analyzing data. Designed for efficiency and scalability, the application provides insights into the validation process, allowing users to interact with and explore the outcomes of the wearable technology assessment.
 </p>
 
 ## Installation
@@ -50,6 +50,10 @@ project.1.sia.wi::run_app()
 
 <p align="justify">
   If you run into any problems, feel free to get in touch with the DASC at <a href="mailto:h.klarenberg@vu.nl">h.klarenberg@vu.nl</a>.
+</p>
+
+<p align="justify">
+  For detailed questions about the wearable validation pipeline database, please get in touch with a member of RT2</a>.
 </p>
 
 ## Resources
