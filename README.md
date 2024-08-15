@@ -16,21 +16,24 @@
   For point 2:  how daily life stress can be reliably measured in a specific individual in real-time using daily life stress assessment tools, selection and validation pipelines in our design field labs will establish their ethical and legal feasibility, user-acceptance, reliability and validity, and potential application in just-in-time adaptive stress interventions.
 </p>
 
-
-
 <p align="justify">
   This GitHub repository contains an R Shiny app developed using the <a href="https://github.com/ThinkR-open/golem">golem</a> framework. The app showcases the results of the wearable validation pipeline, offering a robust platform for visualizing and analyzing data. Designed for efficiency and scalability, the application provides insights into the validation process, allowing users to interact with and explore the outcomes of the wearable technology assessment.
 </p>
 
 ## Installation
 
-You can install the stable version from CRAN with:
+IMPORTANT: only SiA-researchers who have acces to the wearable validation pipeline database are able to run this Shiny app.
+
+You can install the stable version of `project.1.sia.wi` like so:
 
 ```r
-install.packages("golem")
+install.packages("remotes")
+remotes::install_github("HugoGit39/project.1.sia.wi")
+```
 
-You can install the development version from GitHub with:
-
+<p align="justify">
+  If you run into any problems, feel free to get in touch with the DASC at <a href="mailto:h.klarenberg@vu.nl">h.klarenberg@vu.nl</a>.
+</p>
 
 ### Explanation:
 - **Links and Code Formatting**: `{golem}`, `Stress in Action`, and `jajaja` are formatted as inline code (grey background) using backticks. Their corresponding URLs are clickable links.
