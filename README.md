@@ -45,6 +45,10 @@ project.1.sia.wi::run_app()
 ## Support
 
 <p align="justify">
+  If you encounter a bug, please <a href="https://github.com/HugoGit39/project.1.sia.wi/issues">submit an issue</a>.
+</p>
+
+<p align="justify">
   If you run into any problems, feel free to get in touch with the DASC at <a href="mailto:h.klarenberg@vu.nl">h.klarenberg@vu.nl</a>.
 </p>
 
