@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <img src="https://stress-in-action.nl/wp-content/uploads/2023/05/Measurements_3.jpg" alt="Measurements Image">
+  <img src="https://stress-in-action.nl/wp-content/uploads/2023/05/Measurements_3.jpg" alt="Measurements Image" width="50%">
 </p>
 
 <p align="justify">
