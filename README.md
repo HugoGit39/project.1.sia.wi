@@ -22,6 +22,23 @@
   This GitHub repository contains an R Shiny app developed using the <a href="https://github.com/ThinkR-open/golem">golem</a> framework. The app showcases the results of the wearable validation pipeline, offering a robust platform for visualizing and analyzing data. Designed for efficiency and scalability, the application provides insights into the validation process, allowing users to interact with and explore the outcomes of the wearable technology assessment.
 </p>
 
+## Installation
+
+You can install the stable version from CRAN with:
+
+```r
+install.packages("golem")
+
+You can install the development version from GitHub with:
+
+
+### Explanation:
+- **Links and Code Formatting**: `{golem}`, `Stress in Action`, and `jajaja` are formatted as inline code (grey background) using backticks. Their corresponding URLs are clickable links.
+- **R Code Blocks**: The installation commands are placed inside triple backticks with `r` to indicate that the content is R code, ensuring proper formatting.
+
+This structure will make the links clickable, the package names stand out as code, and the installation instructions will be clearly formatted in your `README.md`.
+
+
 ## Resources
 
 `Stress in Action` website: [https://stress-in-action.nl](https://stress-in-action.nl)
