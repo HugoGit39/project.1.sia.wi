@@ -22,7 +22,9 @@
 
 ## Installation
 
-IMPORTANT: only SiA-researchers who have acces to the wearable validation pipeline database are able to run this Shiny app.
+<p align="justify">
+  <strong>IMPORTANT: Only SiA researchers with access to the wearable validation pipeline database are authorized to run this Shiny app.</strong>
+</p>
 
 You can install the stable version of `project.1.sia.wi` like so:
 
@@ -30,10 +32,6 @@ You can install the stable version of `project.1.sia.wi` like so:
 install.packages("remotes")
 remotes::install_github("HugoGit39/project.1.sia.wi")
 ```
-
-<p align="justify">
-  If you run into any problems, feel free to get in touch with the DASC at <a href="mailto:h.klarenberg@vu.nl">h.klarenberg@vu.nl</a>.
-</p>
 
 ## Run the app
 
@@ -43,6 +41,12 @@ To launch `project.1.sia.wi`, type the following code into the R console after y
 library(project.1.sia.wi)
 project.1.sia.wi::run_app()
 ```
+
+## Support
+
+<p align="justify">
+  If you run into any problems, feel free to get in touch with the DASC at <a href="mailto:h.klarenberg@vu.nl">h.klarenberg@vu.nl</a>.
+</p>
 
 ## Resources
 
