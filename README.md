@@ -16,13 +16,17 @@
   For point 2:  how daily life stress can be reliably measured in a specific individual in real-time using daily life stress assessment tools, selection and validation pipelines in our design field labs will establish their ethical and legal feasibility, user-acceptance, reliability and validity, and potential application in just-in-time adaptive stress interventions.
 </p>
 
-<p align="justify">
-  For point 2:  how daily life stress can be reliably measured in a specific individual in real-time using daily life stress assessment tools, selection and validation pipelines in our design field labs will establish their ethical and legal feasibility, user-acceptance, reliability and validity, and potential application in just-in-time adaptive stress interventions.
-</p>
+
 
 <p align="justify">
-  <strong>This GitHub repository contains an R Shiny app developed using the <a href="https://github.com/ThinkR-open/golem">golem</a> framework. The app showcases the results of the wearable validation pipeline, offering a robust platform for visualizing and analyzing data. Designed for efficiency and scalability, the application provides insights into the validation process, allowing users to interact with and explore the outcomes of the wearable technology assessment.</strong>
+  This GitHub repository contains an R Shiny app developed using the <a href="https://github.com/ThinkR-open/golem">golem</a> framework. The app showcases the results of the wearable validation pipeline, offering a robust platform for visualizing and analyzing data. Designed for efficiency and scalability, the application provides insights into the validation process, allowing users to interact with and explore the outcomes of the wearable technology assessment.
 </p>
+
+##Resources
+
+Stress in Action website: https://stress-in-action.nl
+- [{golem}](https://github.com/ThinkR-open/golem) - A framework for building robust and scalable Shiny applications.
+
 
 
 
