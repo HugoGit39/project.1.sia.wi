@@ -35,12 +35,14 @@ remotes::install_github("HugoGit39/project.1.sia.wi")
   If you run into any problems, feel free to get in touch with the DASC at <a href="mailto:h.klarenberg@vu.nl">h.klarenberg@vu.nl</a>.
 </p>
 
-### Explanation:
-- **Links and Code Formatting**: `{golem}`, `Stress in Action`, and `jajaja` are formatted as inline code (grey background) using backticks. Their corresponding URLs are clickable links.
-- **R Code Blocks**: The installation commands are placed inside triple backticks with `r` to indicate that the content is R code, ensuring proper formatting.
+## Run the app
 
-This structure will make the links clickable, the package names stand out as code, and the installation instructions will be clearly formatted in your `README.md`.
+To launch project.1.sia.wi, type the following code into the R console after you have loaded the library:
 
+```r
+library(project.1.sia.wi)
+movedesign::run_app()
+```
 
 ## Resources
 
