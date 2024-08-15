@@ -21,14 +21,11 @@
 <p align="justify">
   This GitHub repository contains an R Shiny app developed using the <a href="https://github.com/ThinkR-open/golem">golem</a> framework. The app showcases the results of the wearable validation pipeline, offering a robust platform for visualizing and analyzing data. Designed for efficiency and scalability, the application provides insights into the validation process, allowing users to interact with and explore the outcomes of the wearable technology assessment.
 </p>
-https://github.com/rstudio/shiny
+
 ## Resources
 
-https://github.com/rstudio/shiny
+`Stress in Action` website: [https://stress-in-action.nl](https://stress-in-action.nl)
 
-
-
-Stress in Action website: https://stress-in-action.nl
 - `{shiny}` - [https://github.com/rstudio/shiny](https://github.com/rstudio/shiny)
 - `{golem}` - [https://github.com/ThinkR-open/golem](https://github.com/ThinkR-open/golem)
 
