@@ -41,7 +41,7 @@ To launch `project.1.sia.wi`, type the following code into the R console after y
 
 ```r
 library(project.1.sia.wi)
-movedesign::run_app()
+project.1.sia.wi::run_app()
 ```
 
 ## Resources
