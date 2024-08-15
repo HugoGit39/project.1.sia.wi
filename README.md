@@ -25,7 +25,8 @@
 ## Resources
 
 Stress in Action website: https://stress-in-action.nl
-- [{golem}](https://github.com/ThinkR-open/golem) - A framework for building robust and scalable Shiny applications.
+- `{golem}` - [https://github.com/ThinkR-open/golem](https://github.com/ThinkR-open/golem)
+
 
 
 
