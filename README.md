@@ -37,7 +37,7 @@ remotes::install_github("HugoGit39/project.1.sia.wi")
 
 ## Run the app
 
-To launch project.1.sia.wi, type the following code into the R console after you have loaded the library:
+To launch `project.1.sia.wi`, type the following code into the R console after you have loaded the library:
 
 ```r
 library(project.1.sia.wi)
