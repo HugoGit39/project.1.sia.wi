@@ -4,19 +4,24 @@
 #'     DO NOT REMOVE.
 #' @import shiny
 #' @import bs4Dash
+#' @import fresh
+#' @import dplyr
+#' @import tidyr
 #' @noRd
 app_ui <- function(request) {
   tagList(
     # Leave this function for adding external resources
     golem_add_external_resources(),
+
     # Your application UI logic
     dashboardPage(
       dark = NULL,
       freshTheme = "",
-      title = "Bitnify Member Web App",
-      fullscreen = T,
+      title = "SiA Wearable Interface Web App",
+      fullscreen = TRUE,
       skin = "light",
       help = NULL,
+
       #  * Header -----------------------------------------------
       header = dashboardHeader(
         tagList(
@@ -36,9 +41,52 @@ app_ui <- function(request) {
                      src = "https://bitnify.app/wp-content/uploads/2023/02/cropped-Bitnify-Logo-Full-tr.png",
                      height = "55px"))
         ),
+
         #  * Dropdownmenu -----------------------------------------------
-        leftUi = ""
-      )
+        leftUi = NULL
+      ),
+
+      #  * Sidebar -----------------------------------------------
+      sidebar = dashboardSidebar(
+        tags$style(".brand-link {padding-bottom: 61px}"), #to align logo with lower line to header
+        skin = "light",
+        status = "primary",
+        elevation = 1,
+        collapsed = TRUE,
+        id = "sidebarmenu",
+        sidebarMenu(
+          sidebarHeader("Information"),
+          menuItem(
+            text = "Pipeline",
+            icon = tags$i(class = "fa-solid fa-user", verify_fa = FALSE),
+            tabName = "pipeline"
+          )
+        )
+      ),
+
+      #  * Body -----------------------------------------------
+      body = bs4DashBody(
+        # You can add your body content here
+      ),
+
+      #  * Controlbar -----------------------------------------------
+      controlbar = dashboardControlbar(
+        tags$style(HTML(".control-sidebar { overflow-y: auto;}")), # add scrollbar
+        skin = "light",
+        pinned = FALSE,
+        collapsed = TRUE,
+        overlay = TRUE
+      ),
+
+      #  * Footer -----------------------------------------------
+      footer = dashboardFooter(
+        left = strong(HTML(" <a href='mailto:h.klarenberg@vu.nl'>DASC</a>"), HTML('&nbsp;'),
+                      a(target="_blank", href = 'https://twitter.com/bitnifyapp/',
+                        img(src = 'https://bitnify.app/wp-content/uploads/2023/02/Bitnify_twitter_logo.png'))),
+        right = "© 2024 Stress in Action. All Rights Reserved."
+      ),
+
+      scrollToTop = TRUE
     )
   )
 }
@@ -49,8 +97,6 @@ app_ui <- function(request) {
 #' resources inside the Shiny application.
 #'
 #' @import shiny
-#' @import dplyr
-#' @import tidyr
 #' @importFrom golem add_resource_path activate_js favicon bundle_resources
 #' @noRd
 golem_add_external_resources <- function() {
