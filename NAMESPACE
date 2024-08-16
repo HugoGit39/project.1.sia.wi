@@ -3,6 +3,7 @@
 export(run_app)
 import(bs4Dash)
 import(dplyr)
+import(fresh)
 import(shiny)
 import(tidyr)
 importFrom(golem,activate_js)

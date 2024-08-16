@@ -8,6 +8,11 @@
 #' @import dplyr
 #' @import tidyr
 #' @noRd
+
+# load functions
+source("R/colours_fresh.R")
+
+#app ui
 app_ui <- function(request) {
   tagList(
     # Leave this function for adding external resources

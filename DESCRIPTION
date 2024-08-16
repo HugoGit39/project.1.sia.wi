@@ -2,13 +2,14 @@ Package: project.1.sia.wi
 Title: SiA Wearable Interface
 Version: 0.0.0.9000
 Authors@R: 
-    person("hugo", "klarenberg", , "hklarenberg@vu.nl", role = c("aut", "cre"))
+    person("Hugo", "Klarenberg", , "hugoklarenberg@gmail.com", role = c("cre", "aut"))
 Description: R Shiny dashboard for the SiA Wearable Interface project
 License: Apache License (>= 2)
 Imports: 
     bs4Dash,
     config,
     dplyr,
+    fresh,
     golem,
     shiny,
     tidyr

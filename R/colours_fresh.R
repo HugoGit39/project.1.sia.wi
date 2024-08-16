@@ -16,7 +16,7 @@ colours_fresh <- function() {
       warning = "#882255",
       danger = "#CC6677",
       light = "#fbf7f3", #official SiA colour
-      dark = "#44546a"
+      dark = "#000000" #official SiA colour
     ),
     bs4dash_color(
       green = "#117733", #green
@@ -29,7 +29,7 @@ colours_fresh <- function() {
       olive  = "#999933", #olive
       cyan  = "#88CCEE", #cyan
       gray_x_light = "#fbf7f3", #grey #official SiA colour
-      gray_900  = "#44546a" #text
+      gray_900  = "#000000" #text #official SiA colour
     )
   )
 
