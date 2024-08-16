@@ -65,6 +65,8 @@ golem::use_utils_server(with_test = TRUE)
 
 usethis::use_package("dplyr")
 usethis::use_package("tidyr")
+usethis::use_package("bs4Dash")
+usethis::use_package("fresh")
 
 # You're now set! ----
 

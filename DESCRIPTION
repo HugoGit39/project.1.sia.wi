@@ -2,24 +2,19 @@ Package: project.1.sia.wi
 Title: SiA Wearable Interface
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "hugo",
-           family = "klarenberg",
-           role = c("aut", "cre"),
-           email = "hklarenberg@vu.nl")
+    person("hugo", "klarenberg", , "hklarenberg@vu.nl", role = c("aut", "cre"))
 Description: R Shiny dashboard for the SiA Wearable Interface project
 License: Apache License (>= 2)
 Imports: 
-    config (>= 0.3.2),
+    bs4Dash,
+    config,
     dplyr,
-    golem (>= 0.4.1),
-    shiny (>= 1.9.1),
-    tidyr,
-    tydr
+    golem,
+    shiny,
+    tidyr
+Suggests: 
+    testthat
+Config/testthat/edition: 3
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.3.2
-Suggests: 
-    testthat (>= 3.0.0)
-Config/testthat/edition: 3
-Depends: 
-    tidyverse
