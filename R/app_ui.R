@@ -16,9 +16,9 @@ app_ui <- function(request) {
     # Your application UI logic
     dashboardPage(
       dark = NULL,
-      freshTheme = "",
+      freshTheme = colours_fresh(),
       title = "SiA Wearable Interface Web App",
-      fullscreen = TRUE,
+      fullscreen = T,
       skin = "light",
       help = NULL,
 
@@ -32,13 +32,13 @@ app_ui <- function(request) {
           tags$span(
             class = "logo-xs",
             tags$img(title = "title",
-                     src = "https://bitnify.app/wp-content/uploads/2023/03/Bitnify_logo-e1678532699322.png",
+                     src = "SiA_Logo_png.png",
                      height = "57px")),
 
           tags$span(
             class = "logo-xl",
             tags$img(title = "title",
-                     src = "https://bitnify.app/wp-content/uploads/2023/02/cropped-Bitnify-Logo-Full-tr.png",
+                     src = "SiA_Logo_png.png",
                      height = "55px"))
         ),
 
@@ -52,12 +52,12 @@ app_ui <- function(request) {
         skin = "light",
         status = "primary",
         elevation = 1,
-        collapsed = TRUE,
+        collapsed = F,
         id = "sidebarmenu",
         sidebarMenu(
           sidebarHeader("Information"),
           menuItem(
-            text = "Pipeline",
+            text = "Overview",
             icon = tags$i(class = "fa-solid fa-user", verify_fa = FALSE),
             tabName = "pipeline"
           )
@@ -80,10 +80,10 @@ app_ui <- function(request) {
 
       #  * Footer -----------------------------------------------
       footer = dashboardFooter(
-        left = strong(HTML(" <a href='mailto:h.klarenberg@vu.nl'>DASC</a>"), HTML('&nbsp;'),
+        left = strong(HTML(" <a href='mailto:h.klarenberg@vu.nl'>E-mail Us!</a>"), HTML('&nbsp;'),
                       a(target="_blank", href = 'https://twitter.com/bitnifyapp/',
                         img(src = 'https://bitnify.app/wp-content/uploads/2023/02/Bitnify_twitter_logo.png'))),
-        right = "© 2024 Stress in Action. All Rights Reserved."
+        right = "Copyright 2024 | Stress in Action | All rights Reserved"
       ),
 
       scrollToTop = TRUE
