@@ -25,7 +25,7 @@
 ## Installation
 
 <p align="justify">
-  <strong>IMPORTANT: Only SiA researchers with access to the wearable validation pipeline database are authorized to run this Shiny app.</strong>
+  <strong>IMPORTANT: Only SiA researchers with access to the wearable validation pipeline database are able to run this Shiny app.</strong>
 </p>
 
 You can install the stable version of `project.1.sia.wi` like so:
@@ -41,8 +41,19 @@ To launch `project.1.sia.wi`, type the following code into the R console after y
 
 ```r
 library(project.1.sia.wi)
+```
+
+<p align="justify">
+  <strong>Add the  wearable validation pipeline database named <code>sia_df.csv</code> to the folder inst/app/extdata.</strong>
+</p>
+
+```r 
 project.1.sia.wi::run_app()
 ```
+
+## Live version
+
+`Live Wearable Shiny App` website: [https://wearables.stress-in-action.nl](https://stress-in-action.nl) - Available at the end of 2024 
 
 ## Support
 
@@ -51,7 +62,7 @@ project.1.sia.wi::run_app()
 </p>
 
 <p align="justify">
-  If you run into any problems, feel free to get in touch with the DASC at <a href="mailto:h.klarenberg@vu.nl">h.klarenberg@vu.nl</a>.
+  If you run into any problems, feel free to get in touch with the DISC at <a href="mailto:h.klarenberg@vu.nl">h.klarenberg@vu.nl</a>.
 </p>
 
 <p align="justify">
@@ -64,6 +75,7 @@ project.1.sia.wi::run_app()
 
 - `{shiny}` - [https://github.com/rstudio/shiny](https://github.com/rstudio/shiny)
 - `{golem}` - [https://github.com/ThinkR-open/golem](https://github.com/ThinkR-open/golem)
+- `{bs4Dash}` - [https://github.com/RinteRface/bs4Dash](https://github.com/RinteRface/bs4Dash)
 
 
 
