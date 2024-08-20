@@ -24,7 +24,7 @@
 
 ## Installation
 
-<p align="justify">
+<p align="justify" style="color:#f15a29;">
   <strong>IMPORTANT: Only SiA researchers with access to the wearable validation pipeline database are able to run this Shiny app.</strong>
 </p>
 
