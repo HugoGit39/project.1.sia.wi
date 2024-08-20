@@ -7,14 +7,7 @@
 #' @import fresh
 #' @import dplyr
 #' @import tidyr
-#' @importFrom data.table fread
 #' @noRd
-
-# load functions
-source("R/colours_fresh.R")
-
-# load SiA dataframe
-sia_df <- fread("inst/app/extdata/sia_df.csv")
 
 #app ui
 app_ui <- function(request) {
