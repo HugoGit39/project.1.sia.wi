@@ -32,6 +32,7 @@ You can install the stable version of `project.1.sia.wi` like so:
 
 ```r
 install.packages("remotes")
+Add the  wearable validation pipeline database named sia_df.csv to the folder app/extdata 
 remotes::install_github("HugoGit39/project.1.sia.wi")
 ```
 
