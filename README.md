@@ -44,7 +44,7 @@ library(project.1.sia.wi)
 ```
 
 <p align="justify">
-  <strong>Add the  wearable validation pipeline database named `sia_df.csv` to the folder inst/app/extdata.</strong>
+  <strong>Add the  wearable validation pipeline database named <code>sia_df.csv<code> to the folder inst/app/extdata.</strong>
 </p>
 
 ```r 
