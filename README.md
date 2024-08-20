@@ -42,7 +42,8 @@ To launch `project.1.sia.wi`, type the following code into the R console after y
 ```r
 library(project.1.sia.wi)
 ```
- <strong>Add the  wearable validation pipeline database named sia_df.csv to the folder inst/app/extdata.<strong>
+<p align="justify">
+ <strong>Add the  wearable validation pipeline database named sia_df.csv to the folder inst/app/extdata.<strong></p>
 ```r 
 project.1.sia.wi::run_app()
 ```
