@@ -40,7 +40,8 @@ remotes::install_github("HugoGit39/project.1.sia.wi")
 To launch `project.1.sia.wi`, type the following code into the R console after you have loaded the library:
 
 ```r
-library(project.1.sia.wi)```
+library(project.1.sia.wi)
+```
 Add the  wearable validation pipeline database named sia_df.csv to the folder inst/app/extdata
 ```r 
 project.1.sia.wi::run_app()
