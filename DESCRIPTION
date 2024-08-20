@@ -8,6 +8,7 @@ License: Apache License (>= 2)
 Imports: 
     bs4Dash,
     config,
+    data.table,
     dplyr,
     fresh,
     golem,

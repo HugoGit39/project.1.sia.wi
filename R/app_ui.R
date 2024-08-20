@@ -7,10 +7,14 @@
 #' @import fresh
 #' @import dplyr
 #' @import tidyr
+#' @importFrom data.table fread
 #' @noRd
 
 # load functions
 source("R/colours_fresh.R")
+
+# load SiA dataframe
+sia_df <- fread("inst/app/extdata/sia_df.csv")
 
 #app ui
 app_ui <- function(request) {
@@ -43,7 +47,7 @@ app_ui <- function(request) {
           tags$span(
             class = "logo-xl",
             tags$img(title = "title",
-                     src = "SiA_Logo_png.png",
+                     src = "https://stress-in-action.nl/wp-content/uploads/2023/04/sia-logo.png",
                      height = "55px"))
         ),
 
@@ -85,10 +89,8 @@ app_ui <- function(request) {
 
       #  * Footer -----------------------------------------------
       footer = dashboardFooter(
-        left = strong(HTML(" <a href='mailto:h.klarenberg@vu.nl'>E-mail Us!</a>"), HTML('&nbsp;'),
-                      a(target="_blank", href = 'https://twitter.com/bitnifyapp/',
-                        img(src = 'https://bitnify.app/wp-content/uploads/2023/02/Bitnify_twitter_logo.png'))),
-        right = "Copyright 2024 | Stress in Action | All rights Reserved"
+        left = strong(HTML(" <a href='mailto:h.klarenberg@vu.nl'>E-mail Us!</a>")),
+        right = HTML("<span style='color:#1c75bc;'>Copyright 2024 | Stress in Action | All rights Reserved</span>")
       ),
 
       scrollToTop = TRUE
@@ -116,7 +118,5 @@ golem_add_external_resources <- function() {
       path = app_sys("app/www"),
       app_title = "project.1.sia.wi"
     )
-    # Add here other external resources
-    # for example, you can add shinyalert::useShinyalert()
   )
 }
