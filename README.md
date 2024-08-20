@@ -25,7 +25,7 @@
 ## Installation
 
 <p align="justify">
-  <strong>IMPORTANT: Only SiA researchers with access to the wearable validation pipeline database are authorized to run this Shiny app.</strong>
+  <strong>IMPORTANT: Only SiA researchers with access to the wearable validation pipeline database are able to run this Shiny app.</strong>
 </p>
 
 You can install the stable version of `project.1.sia.wi` like so:
