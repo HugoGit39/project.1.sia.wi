@@ -68,6 +68,7 @@ project.1.sia.wi::run_app()
 
 - `{shiny}` - [https://github.com/rstudio/shiny](https://github.com/rstudio/shiny)
 - `{golem}` - [https://github.com/ThinkR-open/golem](https://github.com/ThinkR-open/golem)
+- `{bs4Dash}` - [https://github.com/RinteRface/bs4Dash](https://github.com/RinteRface/bs4Dash)
 
 
 
