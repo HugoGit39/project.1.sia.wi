@@ -46,7 +46,7 @@ project.1.sia.wi::run_app()
 
 ## Live version
 
-The R Shiny app will be available at the end of 2024 `Stress in Action` website: [https://wearables.stress-in-action.nl](https://stress-in-action.nl)
+`Live Wearable Shiny App` website: [https://wearables.stress-in-action.nl](https://stress-in-action.nl) - Available at the end of 2024 
 
 ## Support
 
