@@ -32,7 +32,6 @@ You can install the stable version of `project.1.sia.wi` like so:
 
 ```r
 install.packages("remotes")
-Add the  wearable validation pipeline database named sia_df.csv to the folder app/extdata 
 remotes::install_github("HugoGit39/project.1.sia.wi")
 ```
 
@@ -42,6 +41,7 @@ To launch `project.1.sia.wi`, type the following code into the R console after y
 
 ```r
 library(project.1.sia.wi)
+Add the  wearable validation pipeline database named sia_df.csv to the folder app/extdata 
 project.1.sia.wi::run_app()
 ```
 
