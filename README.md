@@ -71,13 +71,13 @@ project.1.sia.wi::run_app()
 
 ## Authors and Citation
 
-- `{H. Klarenberg}` - Author, maintainer
-- `{A. Stefani}` - Author
-- `{M.A. Schoenmakers}` - Author
-- `{M. Saygin}` - Author
-- `{M. Sikora}` - Author
-- `{M. Noordzij}` - Author
-- `{Stress in Action}` - Copyright holder 
+- H. Klarenberg - Author, maintainer
+- A. Stefani - Author
+- M.A. Schoenmakers - Author
+- M. Saygin - Author
+- M. Sikora - Author
+- M. Noordzij - Author
+- Stress in Action - Copyright holder 
 
 ## Resources
 
