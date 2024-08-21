@@ -19,7 +19,7 @@
 </p>
 
 <p align="justify">
-  This GitHub repository contains an R Shiny app developed using the <code>{golem}</code>  framework. The app showcases the results of the wearable validation pipeline, offering a robust platform for visualizing and analyzing data. Designed for efficiency and scalability, the application provides insights into the validation process, allowing users to interact with and explore the outcomes of the wearable technology assessment.
+  This GitHub repository contains an R Shiny app developed using the <code>{golem}</code> and <code>{bd4Dash}</code> frameworks. The app showcases the results of the wearable validation pipeline, offering a robust platform for visualizing and analyzing data. Designed for efficiency and scalability, the application provides insights into the validation process, allowing users to interact with and explore the outcomes of the wearable technology assessment.
 </p>
 
 ## Installation
