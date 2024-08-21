@@ -71,7 +71,7 @@ project.1.sia.wi::run_app()
 
 ## Authors and Citation
 
-- H. Klarenberg - Author DISC, maintainer
+- <a href="https://stress-in-action.nl/hugo-klarenberg/">H. Klarenberg - Author DISC, maintainer
 - <a href="https://stress-in-action.nl/artemis-stefani/">A. Stefani</a> - Author RT2
 - <a href="https://stress-in-action.nl/myrte-schoenmakers/">M.A. Schoenmakers</a> - Author RT2
 - <a href="https://stress-in-action.nl/melisa-saygin/">M. Saygin</a> - Author RT2
