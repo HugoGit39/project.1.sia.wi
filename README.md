@@ -69,6 +69,16 @@ project.1.sia.wi::run_app()
   For detailed questions about the wearable validation pipeline database, please get in touch with a member of RT2</a>.
 </p>
 
+## Authors and Citation
+
+- `{H. Klarenberg}` - Author, maintainer
+- `{A. Stefani}` - Author
+- `{M.A. Schoenmakers}` - Author
+- `{M. Saygin}` - Author
+- `{M. Sikora}` - Author
+- `{M. Noordzij}` - Author
+- `{Stress in Action}` - Copyright holder 
+
 ## Resources
 
 `Stress in Action` website: [https://stress-in-action.nl](https://stress-in-action.nl)
