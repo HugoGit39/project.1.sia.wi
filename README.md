@@ -72,11 +72,12 @@ project.1.sia.wi::run_app()
 ## Authors and Citation
 
 - H. Klarenberg - Author, maintainer
-- A. Stefani - Author
-- M.A. Schoenmakers - Author
-- M. Saygin - Author
-- M. Sikora - Author
-- M. Noordzij - Author
+- A. Stefani - Author RT2
+- M.A. Schoenmakers - Author RT2
+- M. Saygin - Author RT2
+- M. Sikora - Author RT2
+- M. Noordzij - Author RT2
+- E. de Geus - Author RT2
 - Stress in Action - Copyright holder 
 
 ## Resources
