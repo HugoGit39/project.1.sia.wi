@@ -19,7 +19,7 @@
 </p>
 
 <p align="justify">
-  This GitHub repository contains an R Shiny app developed using the <code>{golem}</code>  framework. The app showcases the results of the wearable validation pipeline, offering a robust platform for visualizing and analyzing data. Designed for efficiency and scalability, the application provides insights into the validation process, allowing users to interact with and explore the outcomes of the wearable technology assessment.
+  This GitHub repository contains an R Shiny app developed using the <code>{golem}</code> and <code>{bd4Dash}</code> frameworks. The app showcases the results of the wearable validation pipeline, offering a robust platform for visualizing and analyzing data. Designed for efficiency and scalability, the application provides insights into the validation process, allowing users to interact with and explore the outcomes of the wearable technology assessment.
 </p>
 
 ## Installation
@@ -62,12 +62,24 @@ project.1.sia.wi::run_app()
 </p>
 
 <p align="justify">
-  If you run into any problems, feel free to get in touch with the DISC at <a href="mailto:h.klarenberg@vu.nl">h.klarenberg@vu.nl</a>.
+  If you run into any problems, feel free to get in touch with the DISC via <a href="mailto:h.klarenberg@vu.nl">h.klarenberg@vu.nl</a>.
 </p>
 
 <p align="justify">
   For detailed questions about the wearable validation pipeline database, please get in touch with a member of RT2</a>.
 </p>
+
+## Authors and Citation
+
+- H. Klarenberg - Author DISC, maintainer
+- <a href="https://stress-in-action.nl/artemis-stefani/">A. Stefani</a> - Author RT2
+- <a href="https://stress-in-action.nl/myrte-schoenmakers/">M.A. Schoenmakers</a> - Author RT2
+- <a href="https://stress-in-action.nl/melisa-saygin/">M. Saygin</a> - Author RT2
+- <a href="https://stress-in-action.nl/magdalena-sikora/">M. Sikora</a> - Author RT2
+- <a href="https://stress-in-action.nl/matthijs-noordzij/">M. Noordzij</a> - Author RT2
+- <a href="https://stress-in-action.nl/eco-de-geus/">J.C.N. de Geus</a> - Author RT2
+- <a href="https://stress-in-action.nl/terms-of-use/">Stress in Action</a> - Copyright holder 
+
 
 ## Resources
 
