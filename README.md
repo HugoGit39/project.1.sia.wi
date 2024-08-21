@@ -72,13 +72,13 @@ project.1.sia.wi::run_app()
 ## Authors and Citation
 
 - H. Klarenberg - Author DISC, maintainer
-- <a href="https://stress-in-action.nl/artemis-stefani/" target="_blank">A. Stefani</a> - Author RT2
-- <a href="https://stress-in-action.nl/myrte-schoenmakers/" target="_blank">M.A. Schoenmakers</a> - Author RT2
-- <a href="https://stress-in-action.nl/melisa-saygin/" target="_blank">M. Saygin</a> - Author RT2
-- <a href="https://stress-in-action.nl/magdalena-sikora/" target="_blank">M. Sikora</a> - Author RT2
-- <a href="https://stress-in-action.nl/matthijs-noordzij/" target="_blank">M. Noordzij</a> - Author RT2
-- <a href="https://stress-in-action.nl/eco-de-geus/" target="_blank">E. de Geus</a> - Author RT2
-- <a href="https://stress-in-action.nl/terms-of-use/" target="_blank">Stress in Action</a> - Copyright holder
+- <a href="https://stress-in-action.nl/artemis-stefani/">A. Stefani</a> - Author RT2
+- <a href="https://stress-in-action.nl/myrte-schoenmakers/">M.A. Schoenmakers</a> - Author RT2
+- <a href="https://stress-in-action.nl/melisa-saygin/">M. Saygin</a> - Author RT2
+- <a href="https://stress-in-action.nl/magdalena-sikora/">M. Sikora</a> - Author RT2
+- <a href="https://stress-in-action.nl/matthijs-noordzij/">M. Noordzij</a> - Author RT2
+- <a href="https://stress-in-action.nl/eco-de-geus/">E. de Geus</a> - Author RT2
+- <a href="https://stress-in-action.nl/terms-of-use/">Stress in Action</a> - Copyright holder 
 
 
 ## Resources
