@@ -78,7 +78,7 @@ project.1.sia.wi::run_app()
 - <a href="https://stress-in-action.nl/magdalena-sikora/">M. Sikora</a> - Author RT2
 - <a href="https://stress-in-action.nl/matthijs-noordzij/">M. Noordzij</a> - Author RT2
 - <a href="https://stress-in-action.nl/eco-de-geus/">E. de Geus</a> - Author RT2
-- Stress in Action - Copyright holder 
+- <a href="https://stress-in-action.nl/terms-of-use/">Stress in Action</a> - Copyright holder 
 
 ## Resources
 
