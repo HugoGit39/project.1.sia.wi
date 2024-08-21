@@ -72,12 +72,12 @@ project.1.sia.wi::run_app()
 ## Authors and Citation
 
 - H. Klarenberg - Author, maintainer
-- A. Stefani - Author RT2
-- M.A. Schoenmakers - Author RT2
-- M. Saygin - Author RT2
-- M. Sikora - Author RT2
-- M. Noordzij - Author RT2
-- E. de Geus - Author RT2
+- <a href="https://stress-in-action.nl/artemis-stefani/">A. Stefani</a> - Author RT2
+- <a href="https://stress-in-action.nl/myrte-schoenmakers/">M.A. Schoenmakers</a> - Author RT2
+- <a href="https://stress-in-action.nl/melisa-saygin/">M. Saygin</a> - Author RT2
+- <a href="https://stress-in-action.nl/magdalena-sikora/">M. Sikora</a> - Author RT2
+- <a href="https://stress-in-action.nl/matthijs-noordzij/">M. Noordzij</a> - Author RT2
+- <a href="https://stress-in-action.nl/eco-de-geus/">E. de Geus</a> - Author RT2
 - Stress in Action - Copyright holder 
 
 ## Resources
