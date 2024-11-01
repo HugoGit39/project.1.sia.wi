@@ -101,12 +101,13 @@ app_ui <- function(request) {
 #' @noRd
 golem_add_external_resources <- function() {
   add_resource_path(
-    "www",
-    app_sys("app/www")
+    "www", system.file("app/www", package = "project.1.sia.wi")
+    #app_sys("app/www")
   )
 
   tags$head(
     favicon(),
+    tags$link(rel = "stylesheet", type = "text/css", href = "www/custom.css"),
     bundle_resources(
       path = app_sys("app/www"),
       app_title = "project.1.sia.wi"
