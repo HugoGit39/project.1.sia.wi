@@ -20,8 +20,12 @@ attachment::att_amend_desc()
 
 2## Add modules ----
 ## Create a module infrastructure in R/
-golem::add_module(name = "name_of_module1", with_test = TRUE) # Name of the module
-golem::add_module(name = "name_of_module2", with_test = TRUE) # Name of the module
+golem::add_module(name = "Info", with_test = TRUE) # Name of the module
+golem::add_module(name = "User_Guide", with_test = TRUE) # Name of the module
+golem::add_module(name = "Filters", with_test = TRUE) # Name of the module
+golem::add_module(name = "Data", with_test = TRUE) # Name of the module
+golem::add_module(name = "About", with_test = TRUE) # Name of the module
+golem::add_module(name = "Contact", with_test = TRUE) # Name of the module
 
 ## Add helper functions ----
 ## Creates fct_* and utils_*

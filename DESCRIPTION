@@ -10,9 +10,13 @@ Imports:
     config,
     data.table,
     dplyr,
+    DT,
+    emayili,
     fresh,
     golem,
     shiny,
+    shinyjs,
+    shinySearchbar,
     tidyr
 Suggests: 
     spelling,

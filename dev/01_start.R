@@ -67,8 +67,11 @@ usethis::use_package("dplyr")
 usethis::use_package("tidyr")
 usethis::use_package("bs4Dash")
 usethis::use_package("fresh")
-usethis::use_package("fresh")
 usethis::use_package("data.table")
+usethis::use_package("shinySearchbar")
+usethis::use_package("emayili")
+usethis::use_package("shinyjs")
+usethis::use_package("DT")
 
 # You're now set! ----
 
