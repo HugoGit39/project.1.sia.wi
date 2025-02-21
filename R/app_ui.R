@@ -8,6 +8,7 @@
 #' @import dplyr
 #' @import tidyr
 #' @importFrom shinySearchbar searchbar
+#' @importFrom DT DTOutput
 #' @import emayili
 #' @import shinyjs
 #' @noRd
@@ -174,6 +175,7 @@ app_ui <- function(request) {
       ),
 
       scrollToTop = TRUE
+      )
     )
   )
 }

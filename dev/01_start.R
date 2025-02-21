@@ -24,7 +24,7 @@ golem::fill_desc(
   pkg_description = "R Shiny dashboard for the SiA Wearable Interface project", # The Description of the package containing the App
   author_first_name = "Hugo", # Your First Name
   author_last_name = "Klarenberg", # Your Last Name
-  author_email = "hugoklarenberg@gmail.com", # Your Email
+  author_email = "h.klarenberg@vu.nl", # Your Email
   repo_url = NULL, # The URL of the GitHub Repo (optional),
   pkg_version = "0.0.0.9000" # The Version of the package containing the App
 )

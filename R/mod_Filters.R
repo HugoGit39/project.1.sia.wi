@@ -7,7 +7,7 @@
 #' @noRd
 #'
 #' @importFrom shiny NS tagList
-#' @importFrom shiny DTOutput
+#' @importFrom DT DTOutput
 mod_Filters_ui <- function(id) {
   ns <- NS(id)
   tagList(
