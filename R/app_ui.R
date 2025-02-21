@@ -67,7 +67,6 @@ app_ui <- function(request) {
                 navbarTab(tabName = "Tab6", text = "Tab 6"),
                 navbarTab(tabName = "Tab7", text = "Tab 7")
               )
-              )
             )
           )
         ),
