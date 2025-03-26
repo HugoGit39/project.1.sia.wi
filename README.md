@@ -1,4 +1,16 @@
-[![Project Status: Concept – Minimal or no implementation has been done yet.](https://www.repostatus.org/badges/latest/concept.svg)](https://www.repostatus.org/#concept)
+[![Project Status: Abandoned – The project has been abandoned and is no longer being maintained.](https://www.repostatus.org/badges/latest/abandoned.svg)](https://www.repostatus.org/#abandoned)
+
+<p align="justify">
+This project has been abaondend due to unresolved navbar issues between the golem and bs4Dash packages, describes in github issues:
+
+https://github.com/RinteRface/bs4Dash/issues/389
+https://github.com/ThinkR-open/golem/issues/1186
+
+Therefore, the project has been contrinued without using the golem package in the following repo:
+
+https://github.com/HugoGit39/project.1.sia.wi.alt
+
+</p>
 
 <p align="center">
   <img src="https://stress-in-action.nl/wp-content/uploads/2023/04/sia-logo.png" alt="SIA Logo">
