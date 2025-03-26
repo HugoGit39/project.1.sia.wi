@@ -1,13 +1,13 @@
 [![Project Status: Abandoned – The project has been abandoned and is no longer being maintained.](https://www.repostatus.org/badges/latest/abandoned.svg)](https://www.repostatus.org/#abandoned)
 
-<p align="justify">
-This project was abandoned due to unresolved navigation bar compatibility issues between the golem and bs4Dash packages, as outlined in the following GitHub issues:
+<p align="center">
+This project was abandoned due to unresolved navigation bar compatibility issues between the `{golem}` and `{bs4Dash}` packages, as outlined in the following GitHub issues:
 
 https://github.com/RinteRface/bs4Dash/issues/389
 
 https://github.com/ThinkR-open/golem/issues/1186
 
-As a result, development has continued without the golem framework in the following repository:
+As a result, development has continued without the `{golem}` framework in the following repository:
 
 https://github.com/HugoGit39/project.1.sia.wi.alt
 
